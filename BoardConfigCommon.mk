@@ -30,8 +30,8 @@ BOARD_VENDOR := htc
 TARGET_NO_BOOTLOADER := true
 
 # Platform
-TARGET_BOARD_PLATFORM := msm8960
-TARGET_BOARD_PLATFORM_GPU := qcom-adreno200
+TARGET_BOARD_PLATFORM := msm8930
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno305
 
 # Architecture
 TARGET_ARCH := arm
@@ -66,7 +66,7 @@ USE_OPENGL_RENDERER := true
 TARGET_DISPLAY_USE_RETIRE_FENCE := true
 TARGET_USES_C2D_COMPOSITION := true
 TARGET_USES_ION := true
-BOARD_EGL_CFG := device/htc/msm8960-common/configs/egl.cfg
+BOARD_EGL_CFG := device/htc/msm8930-common/configs/egl.cfg
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
