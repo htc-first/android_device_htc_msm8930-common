@@ -14,7 +14,7 @@
 
 ifeq ($(TARGET_PROVIDES_POWERHAL),true)
 ifeq ($(BOARD_VENDOR),htc)
-ifeq ($(TARGET_BOARD_PLATFORM),msm8960)
+ifeq ($(TARGET_BOARD_PLATFORM),msm8930)
 LOCAL_PATH := $(call my-dir)
 
 # HAL module implemenation stored in
