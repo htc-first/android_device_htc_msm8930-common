@@ -17,7 +17,7 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(BOARD_VENDOR),htc)
-ifeq ($(TARGET_BOARD_PLATFORM),msm8930)
+ifeq ($(TARGET_BOARD_PLATFORM),msm8930aa)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
 endif
