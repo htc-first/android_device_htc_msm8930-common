@@ -39,8 +39,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     alsa.msm8960 \
     audio.a2dp.default \
-    audio_policy.msm8930 \
-    audio.primary.msm8930 \
+    audio_policy.msm8930aa \
+    audio.primary.msm8930aa \
     audio.r_submix.default \
     audio.usb.default \
     libaudio-resampler \
@@ -48,15 +48,15 @@ PRODUCT_PACKAGES += \
 
 # Graphics
 PRODUCT_PACKAGES += \
-    copybit.msm8930 \
-    gralloc.msm8930 \
-    hwcomposer.msm8930 \
+    copybit.msm8930aa \
+    gralloc.msm8930aa \
+    hwcomposer.msm8930aa \
     libgenlock \
     liboverlay
 
 # Lights
 PRODUCT_PACKAGES += \
-    lights.msm8930
+    lights.msm8930aa
 
 # OMX
 PRODUCT_PACKAGES += \
@@ -73,7 +73,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    power.msm8930
+    power.msm8930aa
 
 # QCOM rngd
 PRODUCT_PACKAGES += \

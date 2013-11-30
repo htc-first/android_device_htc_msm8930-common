@@ -16,11 +16,11 @@ LOCAL_PATH:= $(call my-dir)
 
 ifeq ($(TARGET_PROVIDES_LIBLIGHT),true)
 ifeq ($(BOARD_VENDOR),htc)
-ifeq ($(TARGET_BOARD_PLATFORM),msm8930)
+ifeq ($(TARGET_BOARD_PLATFORM),msm8930aa)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := lights.msm8963
+LOCAL_MODULE := lights.msm8930aa
 
 LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)/hw
 
